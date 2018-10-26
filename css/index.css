@@ -1,0 +1,188 @@
+body {
+  background-color: #171a21;
+  color: #777;
+  font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+  font-weight: bold;
+  color: #444;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 300;
+  color: #444;
+  font-size: 55px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 24px;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h4:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+a:hover {
+  color: white;
+}
+
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: 13px;
+  color: #777;
+  font-style: italic;
+}
+
+.clear {
+  clear: both;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+}
+
+.cabecero {
+  margin: auto;
+  padding: 0 10px;
+}
+
+header h1 {
+  float: right;
+  margin-top: 32px;
+  color: white;
+}
+
+header h1 .color {
+  color: #171a21;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-top: 0px;
+}
+
+header nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin-right: 20px;
+}
+
+header nav ul li a:active {
+  background-color: white;
+  color: white;
+}
+
+.logo img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin: 0 auto;
+}
+
+#features ul {
+  margin: auto;
+  
+}
+
+#features h3 {
+  display: table;
+  margin-left: auto;
+margin-right: auto;
+  margin: 0 auto 2% auto;
+  width: 40%;
+  border-bottom: 1px solid mediumpurple;
+  padding: 0 0 20px 0;
+}
+
+#features ul li {
+  width: 300px;
+  padding-top: 100px;
+  margin-right: 15%;
+  text-align: center;
+  margin-bottom: 2%;
+  display: inline-block;
+  
+}
+
+li {
+  list-style-type: none;
+}
+
+#cta {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#cards img {
+  width: 80%;
+  height: auto;
+}
+
+#cards img:hover {
+  transform: scale(1.5);
+}
+
+#cards ul li {
+  width: 300px;
+  padding-top: 100px;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 2%;
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+}
+
+#cards ul li img.resize{
+  width: 50px;
+}
+#cards h3 {
+  display: table;
+  margin: 5% auto 2% auto;
+  width: 40%;
+  border-bottom: 1px solid mediumpurple;
+  padding: 0 0 20px 0;
+}
