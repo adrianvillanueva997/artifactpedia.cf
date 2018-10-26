@@ -1,2 +1,4 @@
 # artifactpedia.cf
-repo that stores artifactpedia.cf source code
+Asignment for Web programming.
+
+It has content that is copyrighted by Valve Corporation
